@@ -304,3 +304,78 @@ a span {
 
 
 }
+
+
+@media only screen and (max-width: 768px) {
+	.content {
+		width: 100%;
+	}	
+	.container {
+		margin-top: 80px;
+	}
+	.header {
+		width: 100%;
+		height: 80px;
+	}
+
+	.headbox{
+		font-size: 25px;
+		height: 80%;
+	}
+	.nav {
+		font-size: 20px
+	}
+	.nav li {
+		width: 20%;
+	}
+	.box1 {
+		width: 90%;
+		margin: 0px;
+	}
+	.box2 {
+		width: 90%;
+		margin-top: -12%;
+	}
+	.box1 h1, .box2 h1 {
+		font-size: 23px;
+	}
+
+	.box1 p {
+		font-size: 18px;
+	}
+	.icon {
+		width: 11%;
+	}
+	.portfolio-container {
+		padding:3%;
+		justify-content: center;
+	}
+	.portfolio-pic {
+		width: 250px;
+	}
+	.footer{
+		width: 100%;
+	}
+
+	.form-font {
+		margin: 4px;
+	}
+
+	#index .container{
+		height: 800px;
+	}
+
+	#portfolio .container {
+		height: 1250px
+	}
+
+	#portfolio .box2 {
+		margin-bottom: 2px;
+	}
+
+	#contact .container {
+		height: 1100px;
+	}
+
+
+}
