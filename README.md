@@ -1,6 +1,6 @@
 # Basic-Portfolio
 
-A basic version of a developer's professional portfolio.
+A responsive version of a developer's professional portfolio using media queries.
 
 
 ## Prerequisites
