@@ -48,6 +48,10 @@ body {
 	margin-top: 0px;
 }
 
+.secondary {
+	display: none;
+}
+
 /*NAVBAR*/
 
 
@@ -71,15 +75,6 @@ body {
 	text-decoration: none;
 }
 
-.nav li a:hover {
-	color: #563f46;
-	font-weight: bold;
-}
-
-.nav li a:active {
-	color: #563f46;
-	font-weight: bold;
-}
 
 .secondary {
 	display: none;
@@ -95,7 +90,7 @@ body {
 	width: 100%;
 	height: 1400px;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 95px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -357,6 +352,8 @@ textarea {
 	.secondary {
 		width: 100%;
 		position: fixed;
+		display: initial;
+		top: 0px;
 	}		
 
 	.secondary-header {
@@ -398,7 +395,7 @@ textarea {
 	}
 
 	.container {
-		margin-top: 0;
+		margin-top: 110px;
 	}
 
 	.box1 .bio {
