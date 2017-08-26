@@ -1,4 +1,4 @@
-# Basic-Portfolio
+# Responsive-Portfolio
 
 A responsive version of a developer's professional portfolio using media queries.
 
